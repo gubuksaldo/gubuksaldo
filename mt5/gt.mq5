@@ -3,7 +3,7 @@
 //|                          Copyright 2026, Mochamad Tabrani & Grok |
 //|                                          https://cindo.pages.dev |
 //+------------------------------------------------------------------+
-#property copyright   "Mochamad Tabrani (c) 2026, Ringin Bambu"
+#property copyright   "MOCHAMAD TABRANI (c) 2026, Ringin Bambu"
 #property link        "https://cindo.pages.dev"
 #property version     "0.01"
 #property description "EA GT Trading - Komando Profit & Keamanan"
@@ -35,8 +35,8 @@ enum ENUM_THEME
 input string          _s0                  = "================= EA GUBUK TRADER GT TRADING ================="; 
 sinput string         Info_System          = "EA Gubuk Trader GT Trading "; 
 sinput string         Info_Version         = "v0.01 [Gubuk Trader]"; 
-sinput string         Info_Author          = "Mochamad Tabrani";                  
-sinput string         Info_Support         = "cindo.pages.dev/indodev";   
+sinput string         Info_Author          = "MOCHAMAD TABRANI";                  
+sinput string         Info_Support         = "cindo.pages.dev";   
 
 //--- Dashboard Layout
 input string          _s1                  = "================= DASHBOARD GEOMETRY =================";
@@ -46,7 +46,7 @@ input int             Panel_Width          = 600;      // Total Dashboard Width
 
 //--- Trading Engine Settings
 input string          _s2                  = "================= GUBUK TRADER ALGO STRATEGY =================";
-input ENUM_TIMEFRAMES InpGTTimeframe       = PERIOD_H1;     // GT Besar Timeframe (Signal Basis)
+input ENUM_TIMEFRAMES InpGTTimeframe       = PERIOD_H1;     // GT Besar Timeframe/durasi (Signal Basis)
 input double          InpLot               = 0.01;          // Base Lot Volume
 input double          InpMultiplier        = 2.0;           // Martingale Volume Multiplier
 input int             InpMaxSteps          = 5;             // Max Martingale Iterations
