@@ -1,6 +1,6 @@
 //+------------------------------------------------------------------+
-//|                                                   GubukSaldo.mq5 |
-//|                          Copyright 2026, MOCHAMAD TABRANI & Grok |
+//|                                               GrafikTabranij.mq5 |
+//|                                 Copyright 2026, MOCHAMAD TABRANI |
 //|                                          https://cindo.pages.dev |
 //+------------------------------------------------------------------+
 #property copyright   "MOCHAMAD TABRANI (c) 2026, Ringin Bambu"
@@ -8,7 +8,7 @@
 #property version     "0.01"
 #property description "EA GT Trading - Komando Profit & Keamanan"
 #property description "========================================================"
-#property description "EA Trading Gubuk Saldo beroperasi berdasarkan Sinyal GT Besar."
+#property description "EA Trading ini beroperasi berdasarkan Sinyal GT Besar."
 #property description "Didesain spesifik untuk volatilitas tinggi (BTCUSD, XAUUSD, GOLDmicro)."
 
 //+------------------------------------------------------------------+
@@ -32,9 +32,9 @@ enum ENUM_THEME
 //+------------------------------------------------------------------+
 
 //--- System Information
-input string          _s0                  = "================= EA GUBUK SALDO GT TRADING ================="; 
-sinput string         Info_System          = "EA Gubuk Saldo GT Trading "; 
-sinput string         Info_Version         = "v0.01 [Gubuk Saldo]"; 
+input string          _s0                  = "================= EA GT TRADING ================="; 
+sinput string         Info_System          = "EA GT Trading "; 
+sinput string         Info_Version         = "v0.01 [Grafik Tabranij]"; 
 sinput string         Info_Author          = "MOCHAMAD TABRANI";                  
 sinput string         Info_Support         = "cindo.pages.dev";   
 
@@ -45,7 +45,7 @@ input int             Y_Offset             = 40;       // Vertical Offset (Pixel
 input int             Panel_Width          = 600;      // Total Dashboard Width
 
 //--- Trading Engine Settings
-input string          _s2                  = "================= GUBUK SALDO ALGO STRATEGY =================";
+input string          _s2                  = "================= GRAFIK TABRANIJ ALGO STRATEGY =================";
 input ENUM_TIMEFRAMES InpGTTimeframe       = PERIOD_H1;     // GT Besar Timeframe/durasi (Signal Basis)
 input double          InpLot               = 0.01;          // Base Lot Volume
 input double          InpMultiplier        = 2.0;           // Martingale Volume Multiplier
@@ -381,7 +381,7 @@ void CreateDashboardTab(int y)
    // Header Area
    int centerX = X_Offset + (Panel_Width / 2);
    CreateRect(PREFIX + "Hdr", X_Offset + 4, y, Panel_Width - 8, 45, gClrHdr);
-   CreateLabel(PREFIX + "Title", centerX, y + 15, "GUBUK SALDO", gClrAccent, 11, FONT_MAIN, ANCHOR_CENTER);
+   CreateLabel(PREFIX + "Title", centerX, y + 15, "GT", gClrAccent, 11, FONT_MAIN, ANCHOR_CENTER);
    y += 50;
    
    // Column Titles
@@ -1008,7 +1008,7 @@ void ExecuteTradingLogic()
          {
             // Max steps reached â†’ reset
             nextLot = InpLot;
-            Print("GubukSaldo EA: Max Martingale Steps reached â€“ resetting to base lot.");
+            Print("GT EA: Max Martingale Steps reached â€“ resetting to base lot.");
          }
       }
    }
@@ -1019,7 +1019,7 @@ void ExecuteTradingLogic()
    nextLot = MathMax(nextLot, minLot);
    nextLot = NormalizeDouble(MathRound(nextLot / stepLot) * stepLot, 2);
    
-   string comment = StringFormat("GubukSaldo|Step%d|Lot%.2f", lossStreak_or_new(), nextLot);
+   string comment = StringFormat("GT|Step%d|Lot%.2f", lossStreak_or_new(), nextLot);
    PlaceOrder(nextType, nextLot, comment);
 }
 
