@@ -1,19 +1,25 @@
-## Hai, yang di sana 👋
+## Hai, yang di sana! 👋
 
-Apakah Anda tahu kepanjangan dari Grafik Tabranij?
-Kepanjangannya adalah Gerakan riwayat angka faktual informasi keuangan Tinggi atas bawah rendah awal neto inti jangkauan!!
+**Apakah Anda tahu kepanjangan dari "Grafik Tabranij"?**
 
-<!--
-**gubuksaldo/gubuksaldo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**GRAFIK TABRANIJ** adalah singkatan dari:
 
-Here are some ideas to get you started:
+**G**erakan  
+**R**iwayat  
+**A**ngka  
+**F**aktual  
+**I**nformasi  
+**K**euangan  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**T**inggi  
+**A**tas  
+**B**awah  
+**R**endah  
+**A**wal  
+**N**eto  
+**I**nti  
+**J**angkauan
+
+---
+
+Grafik Tabranij merupakan representasi visual dinamis yang menyajikan pergerakan dan riwayat data keuangan secara lengkap — dari harga tertinggi hingga terendah, nilai awal, neto, hingga jangkauan pergerakannya.
