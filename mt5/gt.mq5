@@ -223,7 +223,7 @@ void OnChartEvent(const int id, const long& lparam, const double& dparam, const 
       // Visual Toggles
       else if(sparam == PREFIX + "TOG_CHART") { extShowGTChart = !extShowGTChart; if(!extShowGTChart) DeleteVisualization(); ResetDashboard(); }
       
-      // (No object-based logic in GubukTrader mode)
+      // (No object-based logic in GrafikTabranij mode)
    }
 }
 
