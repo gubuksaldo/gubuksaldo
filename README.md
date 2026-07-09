@@ -1,7 +1,10 @@
-## Hi there 👋
+## Hai, yang di sana 👋
+
+Apakah Anda tahu kepanjangan dari Grafik Tabranij?
+Kepanjangannya adalah Gerakan riwayat angka faktual informasi keuangan Tinggi atas bawah rendah awal neto inti jangkauan!!
 
 <!--
-**escindo/escindo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**gubuksaldo/gubuksaldo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
