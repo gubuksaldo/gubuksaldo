@@ -21,13 +21,13 @@ Hai! 👋
 | Komponen      | Representasi Matematis    | Keterangan                          |
 |---------------|---------------------------|-------------------------------------|
 | **T**inggi    | Range                     | Harga tertinggi                     |
-| **A**tas      | Kodomain (Upper Bound)    | Riwayat pergerakan atas             |
-| **B**awah     | Kodomain (Lower Bound)    | Riwayat pergerakan bawah            |
+| **A**tas      | Kodomain                  | Riwayat pergerakan atas             |
+| **B**awah     | Kodomain                  | Riwayat pergerakan bawah            |
 | **R**endah    | Range                     | Harga terendah                      |
-| **A**wal      | Konstanta (Initial)       | Harga pembukaan / nilai awal        |
+| **A**wal      | Konstanta                 | Harga pembukaan / nilai awal        |
 | **N**eto      | Domain                    | Area pergerakan efektif             |
 | **I**nti      | Variabel                  | Harga saat ini / nilai penutupan    |
-| **J**angkauan | Himpunan (Range)          | Jangkauan keseluruhan pergerakan    |
+| **J**angkauan | Himpunan                  | Jangkauan keseluruhan pergerakan    |
 
 ---
 
