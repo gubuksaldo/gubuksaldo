@@ -20,6 +20,7 @@
 **I**nti   
 **J**angkauan 
 
+### Untuk memahami pengertian TABRANIJ dalam bahasa matematika maka kodenya seperti di bawah ini
 **T**inggi {range}  
 **A**tas {kodomain}  
 **B**awah {kodomain}  
