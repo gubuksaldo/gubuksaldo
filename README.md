@@ -18,16 +18,16 @@ Hai! 👋
 
 ### Pengertian Matematis TABRANIJ
 
-| Komponen      | Representasi Matematis    | Keterangan                          |
-|---------------|---------------------------|-------------------------------------|
-| **T**inggi    | Range                     | Harga tertinggi                     |
-| **A**tas      | Kodomain                  | Riwayat pergerakan atas             |
-| **B**awah     | Kodomain                  | Riwayat pergerakan bawah            |
-| **R**endah    | Range                     | Harga terendah                      |
-| **A**wal      | Konstanta                 | Harga pembukaan / nilai awal        |
-| **N**eto      | Domain                    | Area pergerakan efektif             |
-| **I**nti      | Variabel                  | Harga saat ini / nilai penutupan    |
-| **J**angkauan | Himpunan                  | Jangkauan keseluruhan pergerakan    |
+| Komponen         | Representasi Matematis    | Keterangan                          |
+|------------------|---------------------------|-------------------------------------|
+| 1. **T**inggi    | Range                     | Harga tertinggi                     |
+| 2. **A**tas      | Kodomain                  | Riwayat pergerakan atas             |
+| 3. **B**awah     | Kodomain                  | Riwayat pergerakan bawah            |
+| 4. **R**endah    | Range                     | Harga terendah                      |
+| 5. **A**wal      | Konstanta                 | Harga pembukaan / nilai awal        |
+| 6. **N**eto      | Domain                    | Area pergerakan efektif             |
+| 7. **I**nti      | Variabel                  | Harga saat ini / nilai penutupan    |
+| 8. **J**angkauan | Himpunan                  | Jangkauan keseluruhan pergerakan    |
 
 ---
 
