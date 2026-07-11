@@ -4,7 +4,7 @@
 
 **GRAFIK TABRANIJ** adalah singkatan dari:
 
-**G**erakan  
+**G**enesis  
 **R**iwayat  
 **A**ngka  
 **F**aktual  
