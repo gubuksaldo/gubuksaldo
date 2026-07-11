@@ -18,16 +18,16 @@ Hai! 👋
 
 ### Pengertian Matematis TABRANIJ
 
-| Komponen     | Representasi Matematis     | Keterangan                          |
-|--------------|---------------------------|-------------------------------------|
-| **T**inggi   | Range (High)              | Harga tertinggi                     |
-| **A**tas     | Kodomain (Upper Bound)    | Batas atas pergerakan               |
-| **B**awah    | Kodomain (Lower Bound)    | Batas bawah pergerakan              |
-| **R**endah   | Range (Low)               | Harga terendah                      |
-| **A**wal     | Konstanta (Initial)       | Harga pembukaan / nilai awal        |
-| **N**eto     | Domain                    | Area pergerakan efektif             |
-| **I**nti     | Variabel                  | Inti atau kekuatan pergerakan       |
-| **J**angkauan| Himpunan (Range)          | Jangkauan keseluruhan pergerakan    |
+| Komponen      | Representasi Matematis    | Keterangan                          |
+|---------------|---------------------------|-------------------------------------|
+| **T**inggi    | Range                     | Harga tertinggi                     |
+| **A**tas      | Kodomain (Upper Bound)    | Riwayat pergerakan atas             |
+| **B**awah     | Kodomain (Lower Bound)    | Riwayat pergerakan bawah            |
+| **R**endah    | Range                     | Harga terendah                      |
+| **A**wal      | Konstanta (Initial)       | Harga pembukaan / nilai awal        |
+| **N**eto      | Domain                    | Area pergerakan efektif             |
+| **I**nti      | Variabel                  | Harga saat ini / nilai penutupan    |
+| **J**angkauan | Himpunan (Range)          | Jangkauan keseluruhan pergerakan    |
 
 ---
 
@@ -43,11 +43,18 @@ Ia menggabungkan delapan elemen utama harga (High, Low, Open, Range, Upper/Lower
 - Volatilitas dan jangkauan pergerakan
 - Genesis (asal-usul) pergerakan harga
 
+Dengan memahami kedelapan elemen ini, trader dapat melihat:
+- Genesis pergerakan (asal mula)
+- Kekuatan body (Neto/Domain)
+- Inti price action (Inti)
+- Potensi ekspansi atau kontraksi jangkauan
+- Area supply-demand yang signifikan
+
 ### Manfaat Utama
 
 - **Cocok untuk MetaTrader 5 (MT5)** — dapat diimplementasikan sebagai Custom Indicator
 - Membantu identifikasi High Probability Setup
-- Memberikan gambaran yang lebih kaya daripada candlestick biasa
+- Memberikan gambaran yang lebih kaya daripada bartchart/candlestick biasa
 - Berguna untuk **Day Trading, Swing Trading, dan Scalping**
 - Dapat dikombinasikan dengan indikator teknikal lain (MA, RSI, Volume, dll)
 
@@ -55,7 +62,7 @@ Ia menggabungkan delapan elemen utama harga (High, Low, Open, Range, Upper/Lower
 
 ### Filosofi Singkat
 
-> "Memahami harga bukan hanya melihat candlestick, tapi memahami **jiwa** pergerakannya — dari Genesis hingga Jangkauannya."
+> "Memahami harga bukan hanya melihat barchart/candlestick, tapi memahami **jiwa** pergerakannya — dari Genesis hingga Jangkauannya."
 
 ---
 
