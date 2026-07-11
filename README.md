@@ -45,15 +45,15 @@ Ia menggabungkan delapan elemen utama harga (High, Low, Open, Range, Upper/Lower
 
 Dengan memahami kedelapan elemen ini, trader dapat melihat:
 - Genesis pergerakan (asal mula)
-- Kekuatan body (Neto/Domain)
-- Inti price action (Inti)
+- Kekuatan neto
+- Inti dari pergerakan harga
 - Potensi ekspansi atau kontraksi jangkauan
-- Area supply-demand yang signifikan
+- Area penawaran dan permintaan yang signifikan
 
 ### Manfaat Utama
 
 - **Cocok untuk MetaTrader 5 (MT5)** — dapat diimplementasikan sebagai Custom Indicator
-- Membantu identifikasi High Probability Setup
+- Membantu identifikasi Pengaturan Probabilitas Tinggi
 - Memberikan gambaran yang lebih kaya daripada bartchart/candlestick biasa
 - Berguna untuk **Day Trading, Swing Trading, dan Scalping**
 - Dapat dikombinasikan dengan indikator teknikal lain (MA, RSI, Volume, dll)
